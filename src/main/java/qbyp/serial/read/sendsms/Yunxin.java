@@ -59,8 +59,8 @@ public class Yunxin {
 	private static final String APP_SECRET = PropertiesReader.getProperty("APP_SECRET");// 网易云信分配的密钥
 	private static final String NONCE = PropertiesReader.getProperty("NONCE");// 随机数
 	
-//	private static final String APP_KEY = "09b561986eb58694fec86a430e288676";// 网易云信分配的账号
-//	private static final String APP_SECRET = "f4a7566d6c0e";// 网易云信分配的密钥
+//	private static final String APP_KEY = "xxx";// 网易云信分配的账号
+//	private static final String APP_SECRET = "xxx";// 网易云信分配的密钥
 //	private static final String NONCE = "123456";// 随机数
 	
 	private static final String SERVER_SENDTEMPLATE_URL = "https://api.netease.im/sms/sendtemplate.action";// 发送验证码的请求路径URL
