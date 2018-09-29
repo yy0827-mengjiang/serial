@@ -24,17 +24,17 @@ import com.alibaba.fastjson.JSONObject;
 
 public class Yunxin {
 	public static void main(String[] args) throws Exception {
-		//System.out.println(sendCode("18902284520"));
+		//System.out.println(sendCode("xxx"));
 //		JSONArray params=new JSONArray();
-//		params.add("18902284520");
+//		params.add("xxx");
 //		params.add("广州天河");
-//		System.out.println(sendMsgCommon("18902284520", params));
+//		System.out.println(sendMsgCommon("xxx", params));
 //		
 //		
 		
 		String jsonString="{\"ewType\":\"CIRCEL\",\"ringId\":\"SgCkBoadFX9FoUJJ25pnbp\","
-				+ "\"tel\":\"18902284520\",\"message\":\"w谢莉红车主，您的二轮摩托车（女）:粤已离开设防区域，防盗器供电正常，在2018-01-19 23:17:09进入“蕉岭车站广场”，如有被盗情况，请及时报警！\","
-				+ "\"params\":\"[\\\"谢莉红\\\",\\\"二轮摩托车（女）\\\",\\\"粤\\\",\\\"正常\\\",\\\"2018-01-19 23:17:09\\\",\\\"蕉岭车站广场\\\"]\"}";
+				+ "\"tel\":\"xxx\",\"message\":\"wxxx车主，您的二轮摩托车（女）:粤已离开设防区域，防盗器供电正常，在2018-01-19 23:17:09进入“xx车站广场”，如有被盗情况，请及时报警！\","
+				+ "\"params\":\"[\\\"xxx\\\",\\\"二轮摩托车（女）\\\",\\\"粤\\\",\\\"正常\\\",\\\"2018-01-19 23:17:09\\\",\\\"xx车站广场\\\"]\"}";
 		JSONObject json = JSONObject
 				.parseObject(jsonString);
 		String tel = json.getString("tel");
