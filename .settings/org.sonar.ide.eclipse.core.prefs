@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+extraProperties=sonar.jdbc.driver\=com.mysql.jdbc.Driver\r\nsonar.host.url\=http\://192.168.1.3\:9000\r\nsonar.jdbc.password\=root\r\nsonar.jdbc.url\=jdbc\:mysql\://192.168.1.3\:3306/sonar?useUnicode\=true\r\nsonar.jdbc.username\=root
+projectKey=com.nassoft\:qbyp.serial.read
+serverUrl=http\://localhost\:9000
+version=2

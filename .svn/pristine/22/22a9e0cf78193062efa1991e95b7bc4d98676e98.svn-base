@@ -1,0 +1,15 @@
+DriverClass=com.mysql.cj.jdbc.Driver
+Url=jdbc:mysql://192.168.1.5:3306/qbyp_gat?characterEncoding=utf8&useSSL=true&verifyServerCertificate=false
+User=root
+Password=123456a?
+InitialPoolSize=3
+MaxPoolSize=5
+MinPoolSize=1
+MaxIdle=5
+AcquireIncrement=3
+IdleConnectionTestPeriod=60
+MaxIdleTime=0
+AutoCommitOnClose=true
+AcquireRetryAttempts=30
+AcquireRetryDelay=1000
+BreakAfterAcquireFailure=false

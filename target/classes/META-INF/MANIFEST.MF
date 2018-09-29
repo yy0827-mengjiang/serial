@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: NasSoft
+alikoubeiserver-svn-version: 
+Class-Path: config/ lib/log4j-1.2.17.jar lib/slf4j-api-1.6.6.jar lib/s
+ lf4j-log4j12-1.6.6.jar lib/commons-logging-1.2.jar lib/ehcache-2.10.0
+ .jar lib/ojdbc14-10.2.0.4.0.jar lib/c3p0-0.9.1.2.jar lib/mysql-connec
+ tor-java-6.0.6.jar lib/rxtxcomm-2.2.jar lib/httpcore-4.4.3.jar lib/ht
+ tpclient-4.5.1.jar lib/fastjson-1.2.34.jar
+Build-Jdk: 1.8.0_65
+Created-By: Maven Integration for Eclipse
+Main-Class: qbyp.serial.read.App
+Timestamp: 2018-09-29T06:44:09Z(add 8 hour)
+
